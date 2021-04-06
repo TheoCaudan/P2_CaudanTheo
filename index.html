@@ -1,122 +1,103 @@
 <!doctype html>
 <html lang="fr">
-
 <head>
   <meta charset="utf-8">
   <title>Reservia</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src='https://kit.fontawesome.com/e7591b0429.js' crossorigin='anonymous'></script>
 </head>
-
 <body>
-    <div id="container">
-        <header>
-            <img id="logo" src="D:\Documents\Openclassrooms\P2_Caudan_Theo\Projet\Projet 2 - Reservia\images\logo\Reservia.svg" alt="Reservia">
-            <nav class="box_head">
-                <div class= "bold_blue">S'inscrire </div>
-                <div class="gray">Activités </div>
-                <div class="blue">Hébergements </div>
-            </nav>            
-        </header>
-
-        <div class="section1">
-            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p>En plein centre ville ou en pleine nature</p>
+    <header class="header">
+        <img class="headerImg" src="./img/reservia_logo.svg" alt="Reservia">
+        <nav class="headerNav">
+            <a class="headerNavLink" href="#hosting" data-active="true">Hébergement</a>
+            <a class="headerNavLink" href="#activity" data-active="false">Activités</a>
+        </nav>
+            <a class="headerSignup" href="#">S'inscrire</a>
+    </header>
+    <main>
+        <section class="search">
+            <header class="searchHeader">
+                <h1 class="searchHeaderTitle">Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p class="searchHeaderSubtitle">En plein centre de ville ou en pleine nature</p>
+            </header>
             <form>
-
+            <span class="searchFormWrapicon">
+                <i class="fas fa-map-marker-alt searchFormWrapiconIcon"></i>
+            </span>
+                <input class="searchFormSearchinput" type="search" placeholder="Marseille, France" size="1">
+                <button class="searchFormSubmitinput">
+                    <span class="searchFormSubmitinputText">Rechercher</span>
+                    <i class="searchFormSubmitinputIcon fas fa-search"></i>
+                </button>
             </form>
-            <btn>
+                <div class="searchFilters">
+                    <h2 class="searchFiltersTitle">Filtres</h2>
+                    <div class="searchFiltersFilter">
+                        <div class="searchFiltersFilterWrapicon">
+                            <i class="fas fa-money-bill-wave searchFiltersFilterWrapiconIcon"></i>
+                        </div>
+                        <span class="searchFiltersFilterTitle">Économique</span>
+                    </div>
+                    <div class="searchFiltersFilter">
+                        <div class="searchFiltersFilterWrapicon">
+                            <i class="fas fa-child searchFiltersFilterWrapiconIcon"></i>
+                        </div>
+                        <span class="searchFiltersFilterTitle">Familial</span>
+                    </div>
+                    <div class="searchFiltersFilter">
+                        <div class="searchFiltersFilterWrapicon">
+                            <i class="fas fa-heart searchFiltersFilterWrapiconIcon"></i>
+                        </div>
+                        <span class="searchFiltersFilterTitle">Romantique</span>
+                    </div>
+                    <div class="searchFiltersFilter">
+                        <div class="searchFiltersFilterWrapicon">
+                            <i class="fas fa-dog searchFiltersFilterWrapiconIcon"></i>
+                        </div>
+                        <span class="searchFiltersFilterTitle">Animaux autorisés</span>
+                    </div>
+                </div>
+                <div class="searchResult">
+                    <div class="searchResultWrapicon">
+                        <i class="fas fa-info searchResultWrapiconIcon"></i>
+                    </div>
+                    <p class="searchResultText">Plus de 500 logements sont disponibles dans cette ville</p>
+                </div>
+                </section> 
+                <section class="hosting">
+                    <div class="hostingMain">
+                        <header class="hostingMainHeader">
+                          <h2 class="hostingMainHeaderTitle">Hébergement à Marseille</h2>
+                        </header>
+                        <article class="hostingMainCard">
+                            <a href="">
+                                <figure class="hostingMainCardFigure">
+                                    <img class="hostingMainCardFigureImg" src="./img/hosting/small/marcus-loke-WQJvWU_HZFo-unsplash.jpg">
+                                    <figcaption class="hostingMainCardFigureCaption">
+                                        <h3 class="hostingMainCardFigureCaptionTitle">Auberge la Cannebière</h3>
+                                    </figcaption>
+                                </figure>
+                                <p class="hostingMainCardDesc">Nuit à partir de <strong class="hostingMainCardDescPrice">25€</strong></p>
+                                <div class="hotingMainCardGrade">
+                                    <i class="fas fa-star hostingMainCardGradeIcon" data-active="true"></i>
+                                    <i class="fas fa-star hostingMainCardGradeIcon" data-active="true"></i>
+                                    <i class="fas fa-star hostingMainCardGradeIcon" data-active="true"></i>
+                                    <i class="fas fa-star hostingMainCardGradeIcon" data-active="true"></i>
+                                    <i class="fas fa-star hostingMainCardGradeIcon" data-active="false"></i>
+                                </div>
+                            </a>
+                        </article>
+                        <article>
 
-            </btn>
-            <p>Filtres</p>
-            <div>
-
-            </div>
-            <div>
-
-            </div>
-            <div>
-
-            </div>
-            <div>
-
-            </div> 
-            <div>
-
-            </div>
-            <p>Plus de 500 logements sont disponible dans cette ville</p>       
-        </div>
-
-        <div class="section2">
-            <h1>Hébergements à Marseille</h1>
-            <div>
-                <img src="D:\Documents\Openclassrooms\P2_Caudan_Theo\Projet\Projet 2 - Reservia\images\hebergements\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg">
-            </div>
-            <div>
-                <img src="D:\Documents\Openclassrooms\P2_Caudan_Theo\Projet\Projet 2 - Reservia\images\hebergements\4_small\annie-spratt-Eg1qcIitAuA-unsplash.jpg">
-            </div>
-            <div>
-                <img src="D:\Documents\Openclassrooms\P2_Caudan_Theo\Projet\Projet 2 - Reservia\images\hebergements\4_small\fred-kleber-gTbaxaVLvsg-unsplash.jpg">
-            </div>
-            <div>
-                <img src="D:\Documents\Openclassrooms\P2_Caudan_Theo\Projet\Projet 2 - Reservia\images\hebergements\4_small\nicate-lee-kT-ZyaiwBe0-unsplash.jpg">
-            </div>
-            <div>
-                <img src="D:\Documents\Openclassrooms\P2_Caudan_Theo\Projet\Projet 2 - Reservia\images\hebergements\4_small\reisetopia-B8WIgxA_PFU-unsplash.jpg">
-            </div>
-            <div>
-                <img src="D:\Documents\Openclassrooms\P2_Caudan_Theo\Projet\Projet 2 - Reservia\images\hebergements\4_small\febrian-zakaria-M6S1WvfW68A-unsplash.jpg">
-            </div>
-            <a href="">Afficher plus</a>
-        </div>
-
-        <div class="section3">
-            <h1>Les plus populaires</h1>
-            <icn>
-
-            </icn>
-            <div>
-                <img src="D:\Documents\Openclassrooms\P2_Caudan_Theo\Projet\Projet 2 - Reservia\images\hebergements\4_small\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg">
-            </div>
-            <div>
-                <img src="D:\Documents\Openclassrooms\P2_Caudan_Theo\Projet\Projet 2 - Reservia\images\hebergements\4_small\aw-creative-VGs8z60yT2c-unsplash.jpg">
-            </div>
-            <div>
-                <img src="D:\Documents\Openclassrooms\P2_Caudan_Theo\Projet\Projet 2 - Reservia\images\hebergements\4_small\febrian-zakaria-sjvU0THccQA-unsplash.jpg">
-            </div>
-        </div>
-
-        <div class="section4">
-            <h1>Activités à Marseille</h1>
-            <div>
-                <img src="D:\Documents\Openclassrooms\P2_Caudan_Theo\Projet\Projet 2 - Reservia\images\activites\4_small\reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
-                <h2>Vieux Port</h2>
-            </div>
-            <div>
-                <img src="D:\Documents\Openclassrooms\P2_Caudan_Theo\Projet\Projet 2 - Reservia\images\activites\4_small\paul-hermann-QFTrLdQIRhI-unsplash.jpg">
-                <h2>Fort de Pomègues</h2>
-            </div>
-            <div>
-                <img src="D:\Documents\Openclassrooms\P2_Caudan_Theo\Projet\Projet 2 - Reservia\images\activites\4_small\kevin-hikari-rV_Qd1l-VXg-unsplash.jpg">
-                <h2>Îles du Frioul</h2>
-            </div>
-            <div>
-                <img src="D:\Documents\Openclassrooms\P2_Caudan_Theo\Projet\Projet 2 - Reservia\images\activites\4_small\kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg">
-                <h2>Parc National des Calanques</h2>
-            </div>
-            <div>
-                <img src="D:\Documents\Openclassrooms\P2_Caudan_Theo\Projet\Projet 2 - Reservia\images\activites\4_small\florian-wehde-xW9e8gdotxI-unsplash.jpg">
-                <h2>Notre-Dame-de-la-Garde</h2>
-            </div>
-            <div>
-                <img src="D:\Documents\Openclassrooms\P2_Caudan_Theo\Projet\Projet 2 - Reservia\images\activites\4_small\lena-paulin-wH2-EJoDcV0-unsplash.jpg">
-                <h2>Parc Longchamp</h2>
-            </div>
-        </div>
-
+                        </article>
+                    </div>
+                </section>           
+        </main>
+        
         <footer>
             <div>
                 <h2>A propos</h2>
