@@ -1,0 +1,30 @@
+#container
+{
+    font-family: 'Raleway', sans-serif;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+.box_head
+{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.gray
+{
+    color: #F2F2F2;
+}
+
+.blue, .bold_blue
+{
+    color: #0065FC;
+}
+
+.bold_blue
+{
+    font-weight: bold;
+}
