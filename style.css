@@ -10,8 +10,10 @@ ul
 
 .box_head
 {
+    align-items: flex-end;
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-evenly, flex-end;
 }
 
 .gray
