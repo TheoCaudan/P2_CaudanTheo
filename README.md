@@ -12,7 +12,7 @@ The objectives here are :
 
 In order to make a working webpage I will :
 
-- Create a HTML file to integrate a webpage for a booking website (index.html)
+- Create a HTML file to integrate a webpage for a booking website (index.html) - Done & checked on W3C Markup Validation Service.
 - Stylize it, thanks to a pure CSS file (style.css)
 - Adding media queries to make it a responsive webpage
 
