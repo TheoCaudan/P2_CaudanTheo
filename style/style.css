@@ -20,6 +20,7 @@ a
 
 .headerImg
 {
+  display: grid;
   grid-area: logo;
   padding: 0 2rem;
   height: 2.813rem;
