@@ -159,3 +159,23 @@ a
   font-weight: bold;
   font-family: "Raleway", "Sans-serif";
 }
+
+.searchFormSearchinput::placeholder
+{
+  font-family: "Raleway", "Sans-serif";
+  font-size: 1rem;
+  color: #00000070;
+}
+
+.searchFormSubmitinput
+{
+  background-color: #0065FC;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 0 1rem 1rem 0;
+  padding: 0 1.5rem;
+  font-family: "Raleway", "Sans-serif";
+  font-size: 1rem;
+  cursor: pointer;
+}
