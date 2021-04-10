@@ -220,15 +220,206 @@ a
 
 .searchFiltersFilterWrapicon
 {
-  background-color: #DEEBFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 100%;
+  background-color: #DEEBFF;
   height: 3rem;
   width: 3rem;
   min-height: 3.5rem;
   min-width: 3.5rem;
+  margin: -2px;
+}
+
+.searchFiltersFiltersWrapiconIcon
+{
+  color: blue;
+}
+
+.searchFiltersFilterTitle
+{
+  margin: 0 1rem;
+}
+
+.searchResult
+{
+  display: flex;
+  align-items: center;
+  margin: 1rem 0 2rem 0;
+}
+
+.searchResultWrapicon
+{
+  border-radius: 100%;
+  border: solid 1px #D9D9D9;
+  height: 1.5rem;
+  width: 1.5rem;
+  min-width: 2rem;
+  min-height: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: -2px;
+  margin: 1rem;
+}
 
+.searchResultWrapiconIcon
+{
+  color: #0065FC;
+}
+
+.searchResultText
+{
+  margin: 0;
+}
+
+@media screen and (max-width: 600px)
+{
+  .searchForm
+  {
+    display: flex;
+    width: 100%;
+  }
+  .searchFormSearchinput
+  {
+    flex: 1;
+  }
+  .searchFormSubmitinputText
+  {
+    display: none;
+  }
+  .searchFormSubmitinputIcon
+  {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 601px)
+{
+  .searchFormSubmitinputText
+  {
+    display: block;
+  }
+  .searchFormsubmitinputIcon
+  {
+    display: none !important;
+  }
+}
+
+.hosting, .popular
+{
+  background-color: #F2F2F2;
+  border-radius: 1.5rem;
+  padding: 2rem;
+}
+
+.hosting
+{
+  display: grid;
+  column-gap: 2rem;
+  grid-template-columns: 6fr 3fr;
+}
+
+.hostingMain
+{
+  display: grid;
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+.hostingMainHeader
+{
+  grid-column: 1/-1;
+}
+
+.hostingMainHeaderTitle
+{
+  margin: 0;
+}
+
+.hostingMainCard
+{
+  background-color: white;
+  border-radius: 1.25rem;
+  box-shadow: 0 0 16px #0000002E;
+  padding: 6px;
+  box-sizing: border-box;
+  height: 100%;
+  transition-duration: 0.1s;
+  cursor: pointer;
+}
+
+.hostingMainCard:hover
+{
+  transform: scale(1.025);
+}
+
+.hostingMainCardFigure
+{
+  margin: 0;
+}
+
+.hostingMainCardFigureImg
+{
+  height: 7rem;
+  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 1rem 1rem 0 0;
+  object-fit: cover;
+}
+
+.hostingMainCardFigureCaptionTitle
+{
+  margin: 0.25rem 0.75rem 0 0.75rem;
+}
+
+.hostingMainCardDesc
+{
+  margin: 0.25rem 0.75rem 0.25rem 0.75rem; 
+}
+
+.hostingMainCardDescPrice
+{
+  font-weight: bold;
+}
+
+.hostingMainCardGrade
+{
+  margin: 0 0.75rem 0.25rem 0.75rem;
+}
+
+.hostingMainCardGradeIcon[data-active=true]
+{
+  color: #0065FC;
+}
+
+.hostingMainCardGradeIcon[data-active=false]
+{
+  color: #D9D9D9;
+}
+
+.hostingMainViewmore
+{
+  font-weight: bold;
+}
+
+.popular
+{
+  display: grid;
+  row-gap: 2rem;
+  align-items: start;
+  grid-template-rows: auto repeat(3, 1fr);
+}
+
+.popularHeaderTitle
+{
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.popularHeaderTitleIcon
+{
+  
 }
