@@ -419,7 +419,36 @@ a
   justify-content: space-between;
 }
 
-.popularHeaderTitleIcon
+.popularMain
 {
-  
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+  overflow: auto;
+}
+.popularMainCardFigure
+{
+  background-color: white;
+  border-radius: 1.25rem;
+  box-shadow: 0 0 16px #0000002E;
+  padding: 6px;
+  box-sizing: border-box;
+  height: 100%;
+  transition-duration: 0.1s;
+  cursor: pointer;
+  margin: 0;
+}
+
+.popularMainCardFigure:hover
+{
+  transform: scale(1.025);
+}
+
+.popularMainCardFigureImg
+{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  border-radius: 1rem 0 0 1rem;
 }
