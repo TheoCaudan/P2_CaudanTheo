@@ -636,6 +636,11 @@ a
   padding: 2rem 2rem;
 }
 
+.footerHostingContent, .footerAboutContent, .footerHelpContent
+{
+  list-style: none;
+}
+
 .footerContentLink
 {
   display: block;
