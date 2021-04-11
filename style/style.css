@@ -427,7 +427,7 @@ a
   height: 100%;
   overflow: auto;
 }
-.popularMainCardFigure
+.popularMainCard
 {
   background-color: white;
   border-radius: 1.25rem;
@@ -437,32 +437,56 @@ a
   height: 100%;
   transition-duration: 0.1s;
   cursor: pointer;
-  margin: 0;
 }
 
-.popularMainCardFigure:hover
+.popularMainCard:hover
 {
   transform: scale(1.025);
 }
 
-.popularMainCardFigureImg
+.popularMainCardFigure
 {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  position: absolute;
-  border-radius: 1rem 0 0 1rem;
+  margin: 0;
 }
 
-.popularMainCardFigureCaption
+.popularMainCardFigureImg
 {
-  display: flex;
-  flex-direction: column;
+  height: 7rem;
+  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 1rem 1rem 0 0;
+  object-fit: cover;
 }
 
 .popularMainCardFigureCaptionTitle
 {
-  flex: 1;
+  margin: 0.25rem 0.75rem 0 0.75rem;
+}
+
+.popularMainCardDesc
+{
+  margin: 0.25rem 0.75rem 0.25rem 0.75rem; 
+}
+
+.popularMainCardDescPrice
+{
+  font-weight: bold;
+}
+
+.popularMainCardGrade
+{
+  margin: 0 0.75rem 0.25rem 0.75rem;
+}
+
+.popularMainCardGradeIcon[data-active=true]
+{
+  color: #0065FC;
+}
+
+.popularMainCardGradeIcon[data-active=false]
+{
+  color: #D9D9D9;
 }
 
 @media screen and (max-width: 1440px) 
