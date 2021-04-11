@@ -21,7 +21,7 @@ a
 .headerImg
 {
   display: grid;
-  grid-area: logo;
+  grid-area: auto;
   padding: 0 2rem;
   height: 2.813rem;
 }
@@ -154,7 +154,8 @@ a
   border-bottom: #F2F2F2 1px solid;
   padding: 0 1.5rem;
   box-sizing: border-box;
-  width: 14rem;
+  width: 234px;
+  height: 48px;
   font-size: 1rem;
   font-weight: bold;
   font-family: "Raleway", "Sans-serif";
