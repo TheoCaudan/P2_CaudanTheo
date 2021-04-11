@@ -452,3 +452,86 @@ a
   position: absolute;
   border-radius: 1rem 0 0 1rem;
 }
+
+.popularMainCardFigureCaption
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.popularMainCardFigureCaptionTitle
+{
+  flex: 1;
+}
+
+@media screen and (max-width: 1440px) 
+{
+  .hosting
+  {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+  .popular
+  {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    grid-template-rows: auto 10rem;
+    grid-row-start: 1;
+  }
+  .popularHeaderTitle
+  {
+    grid-column: 1/-1;
+  }
+}
+
+@media screen and (min-width: 925px)
+{
+  .hostingMain
+  {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 925px) and (min-width: 650px)
+{
+  .hostingMain
+  {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 1000px)
+{
+  .popular
+  {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto repeat(3, 9rem);
+  }
+}
+
+.activity
+{
+  display: grid;
+  column-gap: 2rem;
+  margin: 4rem 0;
+}
+
+.activityHeaderTitle
+{
+  grid-column: 1/-1;
+}
+
+.activityMainCardFigure
+{
+  box-shadow: 0 0 20px #0000002E;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition-duration: 0.1s;
+}
+
+.activityMainCardFigure:hover
+{
+  transform: scale(1.025);
+}
