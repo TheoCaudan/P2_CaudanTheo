@@ -112,7 +112,7 @@ a
 .main
 {
   max-width: 1440px;
-  margin: auto;
+  margin: 0;
   padding: 0 2rem;
   box-sizing: border-box;
 }
@@ -147,6 +147,7 @@ a
   margin-left: 0.1rem;
 }
 
+
 .searchFormSearchInput
 {
   border-right: none;
@@ -154,7 +155,6 @@ a
   border-top: #F2F2F2 1px solid;
   border-bottom: #F2F2F2 1px solid;
   padding: 0 1.5rem;
-  appearance: auto;
   box-sizing: border-box;
   width: 234px;
   height: 48px;
@@ -313,14 +313,14 @@ a
 {
   background-color: #F2F2F2;
   border-radius: 1.5rem;
-  padding: 2rem;
+  padding: 2rem; 
 }
 
 .hosting
 {
-  display: grid;
+  max-width: 60%;
+  display: flex;
   column-gap: 2rem;
-  grid-template-columns: 6fr 3fr;
   margin: 2rem;
 }
 
@@ -410,10 +410,10 @@ a
 
 .popular
 {
-  display: grid;
+  max-width: 28%;
+  display: flex;
   row-gap: 2rem;
-  align-items: start;
-  grid-template-rows: auto repeat(3, 1fr);
+  align-items: column;
 }
 
 .popularHeaderTitle
@@ -426,7 +426,7 @@ a
 .popularMain
 {
   display: flex;
-  align-items: stretch;
+  align-items: column;
   height: 100%;
   overflow: auto;
 }
