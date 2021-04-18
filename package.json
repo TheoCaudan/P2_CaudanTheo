@@ -4,7 +4,7 @@
   "description": "School Project (Front-End, web page integration)",
   "main": "index.js",
   "scripts": {
-    "prefix": "postcss ./public/style/style.css --use autoprefixer ./public/style/prefixed/"
+    "prefix": "postcss ./D:/Documents/Openclassrooms/P2_Caudan_Theo/Projet/P2_CaudanTheo/style/style.css --use autoprefixer ./D:/Documents/Openclassrooms/P2_Caudan_Theo/Projet/P2_CaudanTheo/style/prefixed/"
   },
   "repository": {
     "type": "git",
