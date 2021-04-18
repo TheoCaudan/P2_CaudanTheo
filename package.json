@@ -1,0 +1,20 @@
+{
+  "name": "p2_caudantheo",
+  "version": "1.0.0",
+  "description": "School Project (Front-End, web page integration)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prefix": "postcss D:\Documents\Openclassrooms\P2_Caudan_Theo\Projet\P2_CaudanTheo\style\style.css --use autoprefixer -d D:\Documents\Openclassrooms\P2_Caudan_Theo\Projet\P2_CaudanTheo\style\autoprefixed.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheoCaudan/P2_CaudanTheo.git"
+  },
+  "author": "Caudan Theo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheoCaudan/P2_CaudanTheo/issues"
+  },
+  "homepage": "https://github.com/TheoCaudan/P2_CaudanTheo#readme"
+}
