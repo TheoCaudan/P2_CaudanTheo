@@ -24,6 +24,7 @@ a
   grid-area: logo;
   padding: 0 2rem;
   height: 2.813rem;
+  margin: 0;
 }
 
 .headerNav
@@ -153,6 +154,7 @@ a
   border-top: #F2F2F2 1px solid;
   border-bottom: #F2F2F2 1px solid;
   padding: 0 1.5rem;
+  appearance: auto;
   box-sizing: border-box;
   width: 234px;
   height: 48px;
