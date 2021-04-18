@@ -412,13 +412,10 @@ a
 
 .popular
 {
-  max-width: 25%;
-  min-height: 500px;
-  max-height: 630px;
+  max-width: 29%;
   display: flex;
   row-gap: 2rem;
-  flex-direction: column;
-  justify-content: stretch;
+  justify-self: flex-end;
 }
 
 .popularHeaderTitle
@@ -431,7 +428,7 @@ a
 .popularMain
 {
   display: flex;
-  align-items: column;
+  flex-direction: column;
   height: 100%;
   overflow: auto;
 }
