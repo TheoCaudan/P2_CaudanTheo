@@ -130,6 +130,7 @@ a
 .searchForm
 {
   display: inline-flex;
+  vertical-align: middle;
   max-width: 100%;
   overflow: auto;
 }
@@ -148,16 +149,16 @@ a
 }
 
 
-.searchFormSearchInput
+.searchFormSearchinput
 {
   border-right: none;
   border-left: none;
   border-top: #F2F2F2 1px solid;
   border-bottom: #F2F2F2 1px solid;
   padding: 0 1.5rem;
-  box-sizing: border-box;
   min-width: 234px;
   min-height: 48px;
+  box-sizing: border-box;
   font-size: 1rem;
   font-weight: bold;
   font-family: "Raleway", "Sans-serif";
@@ -176,8 +177,9 @@ a
   color: white;
   font-weight: bold;
   border: none;
+  min-height: 48px;
   border-radius: 0 1rem 1rem 0;
-  padding: 0 1.5rem;
+  padding: 0 3rem;
   font-family: "Raleway", "Sans-serif";
   font-size: 1rem;
   cursor: pointer;
