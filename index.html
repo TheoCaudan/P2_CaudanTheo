@@ -3,20 +3,25 @@
 <head>
     <meta charset="utf-8">
     <title>Reservia</title>
-    <link rel="stylesheet" href="style/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/style.css">
     <script src='https://kit.fontawesome.com/e7591b0429.js' crossorigin='anonymous'></script>
 </head>
 <body>
     <header class="header">
-        <img class="headerImg" src="./img/reservia_logo.svg" alt="Reservia">
-        <nav class="headerNav">
-            <a class="headerNavLink" href="#hosting" data-active="true">Hébergement</a>
-            <a class="headerNavLink" href="#activity" data-active="false">Activités</a>
-        </nav>
-        <a class="headerSignup" href="#signup">S'inscrire</a>
+        <div>
+            <img class="headerImg" src="./img/reservia_logo.svg" alt="Reservia">
+        </div>
+        <div>
+            <nav class="headerNav">
+                <a class="headerNavLink" href="#hosting" data-active="true">Hébergement</a>
+                <a class="headerNavLink" href="#activity" data-active="false">Activités</a>
+            </nav>
+            <a class="headerSignup" href="#signup">S'inscrire</a>
+        </div>
+        
     </header>
     <main>
         <section class="search">
@@ -28,7 +33,7 @@
                 <span class="searchFormWrapicon">
                     <i class="fas fa-map-marker-alt searchFormWrapiconIcon"></i>
                 </span>
-                <input class="searchFormSearchinput" type="search" placeholder="Marseille, France" size="1">
+                <input class="searchFormSearchinput" type="search" placeholder="Marseille, France">
                 <button class="searchFormSubmitinput">
                     <span class="searchFormSubmitinputText">Rechercher</span>
                     <i class="searchFormSubmitinputIcon fas fa-search"></i>

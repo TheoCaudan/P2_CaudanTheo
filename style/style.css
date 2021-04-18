@@ -12,25 +12,22 @@ a
 
 .header
 {
-  display: grid;
-  align-items: center;
+  display: inline-block;
   max-width: 1440px;
   margin: auto;
 }
 
 .headerImg
 {
-  display: grid;
-  grid-area: auto;
+  display: flex;
   padding: 0 2rem;
   height: 2.813rem;
 }
 
 .headerNav
 {
-  display: flex;
+  display: inline-block;
   align-items: center;
-  grid-area: navbar;
 }
 
 .headerNavLink
