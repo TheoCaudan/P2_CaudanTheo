@@ -321,8 +321,9 @@ a
 
 .hosting
 {
-  width: 55%;
+  max-width: 55%;
   margin: 1rem;
+  float: left;
 }
 
 .hostingMain
@@ -411,7 +412,9 @@ a
 
 .popular
 {
-  width: 29%;
+  width: 30%;
+  margin: 1rem;
+  float: right;
 }
 
 .popularHeaderTitle
@@ -434,8 +437,10 @@ a
   border-radius: 1.25rem;
   box-shadow: 0 0 16px #0000002E;
   padding: 6px;
+  margin: 2rem;
   box-sizing: border-box;
-  height: 100%;
+  max-height: 145px;
+  max-width: 344px;
   transition-duration: 0.1s;
   cursor: pointer;
 }
@@ -455,7 +460,7 @@ a
   height: 7rem;
   width: 100%;
   max-height: 100%;
-  max-width: 100%;
+  max-width: 130px;
   border-radius: 1rem 1rem 0 0;
   object-fit: cover;
 }
@@ -537,6 +542,7 @@ a
 
 .activity
 {
+  width: 100%;
   display: grid;
   column-gap: 2rem;
   margin: 4rem 0;
