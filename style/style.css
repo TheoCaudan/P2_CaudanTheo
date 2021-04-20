@@ -412,7 +412,7 @@ a
 
 .popular
 {
-  width: 30%;
+  width: 33%;
   margin: 1rem;
   float: right;
 }
@@ -433,6 +433,9 @@ a
 }
 .popularMainCard
 {
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
   background-color: white;
   border-radius: 1.25rem;
   box-shadow: 0 0 16px #0000002E;
@@ -440,7 +443,7 @@ a
   margin: 2rem;
   box-sizing: border-box;
   max-height: 145px;
-  max-width: 344px;
+  max-width: 400px;
   transition-duration: 0.1s;
   cursor: pointer;
 }
@@ -452,27 +455,29 @@ a
 
 .popularMainCardFigure
 {
+  position: relative;
+  min-height: 100%;
   margin: 0;
 }
 
 .popularMainCardFigureImg
 {
-  height: 7rem;
-  width: 100%;
+  min-height: 100%;
+  width: 33%;
   max-height: 100%;
-  max-width: 130px;
-  border-radius: 1rem 1rem 0 0;
+  border-radius: 1rem 0 0 1rem;
   object-fit: cover;
+  position: absolute;
 }
 
 .popularMainCardFigureCaptionTitle
 {
-  margin: 0.25rem 0.75rem 0 0.75rem;
+  margin: 0.25rem 0.75rem 0 9rem;
 }
 
 .popularMainCardDesc
 {
-  margin: 0.25rem 0.75rem 0.25rem 0.75rem; 
+  margin: 0.25rem 0.75rem 0 9rem; 
 }
 
 .popularMainCardDescPrice
@@ -482,7 +487,7 @@ a
 
 .popularMainCardGrade
 {
-  margin: 0 0.75rem 0.25rem 0.75rem;
+  margin: 0 0.75rem 0 9rem;
 }
 
 .popularMainCardGradeIcon[data-active=true]
