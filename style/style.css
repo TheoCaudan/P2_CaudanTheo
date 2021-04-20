@@ -436,7 +436,8 @@ a
 .activityMain
 {
   display: grid;
-  grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 25% 25% 25% 25%; 
   width: 100%;
   overflow: auto;
 }
@@ -462,8 +463,9 @@ a
 .activityMainCardFigure1
 {
   box-shadow: 0 0 20px #0000002E;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-column: 1;
+  grid-row: 1 / 2;
   border-radius: 1rem;
   overflow: hidden;
   transition-duration: 0.1s;
@@ -472,8 +474,9 @@ a
 .activityMainCardFigure2
 {
   box-shadow: 0 0 20px #0000002E;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-column: 2;
+  grid-row: 1;
   border-radius: 1rem;
   overflow: hidden;
   transition-duration: 0.1s;
@@ -482,8 +485,9 @@ a
 .activityMainCardFigure3
 {
   box-shadow: 0 0 20px #0000002E;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-column: 2;
+  grid-row: 2;
   border-radius: 1rem;
   overflow: hidden;
   transition-duration: 0.1s;
