@@ -522,14 +522,6 @@ a
 .activityMainCardFigure1:hover .activityMainCardFigure2:hover .activityMainCardFigure3:hover .activityMainCardFigure4:hover 
 .activityMainCardFigure5:hover .activityMainCardFigure6:hover
 {
-  box-shadow: 0 0 20px #0000002E;
-  display: flex;
-  flex-direction: column;
-  border-radius: 1rem;
-  overflow: hidden;
-  transition-duration: 0.1s;
-}
-{
   transform: scale(1.025);
 }
 
