@@ -12,10 +12,12 @@ a
 
 .header
 {
-  display: flex;
+  display: grid;
   align-items: center;
   max-width: 100%;
   margin: auto;
+  grid-template-columns: auto 1fr auto auto;
+  grid-template-areas: "logo . navbar button";
 }
 
 .headerImg
@@ -30,7 +32,7 @@ a
 {
   display: flex;
   align-items: center;
-  justify-content: end;
+  grid-area: navbar;
   text-align: center;
 }
 
@@ -53,6 +55,7 @@ a
 
 .headerNavLink:hover
 {
+  border-top: 6px solid #0065FC;
   color: #0065FC;
 }
 
@@ -69,7 +72,7 @@ a
 .main
 {
   max-width: 100%;
-  margin: 0;
+  margin-left: 2rem;
   padding: 0 2rem;
   box-sizing: border-box;
   display: flex;
@@ -77,11 +80,13 @@ a
 
 .searchHeaderTitle
 {
+  margin-left: 2rem;
   margin-bottom: 0.5rem;
 }
 
 .searchHeaderSubtitle
 {
+  margin-left: 2rem;
   margin-top: 0;
 }
 
@@ -95,6 +100,7 @@ a
 
 .searchFormWrapicon
 {
+  margin-left: 2rem;
   background-color: #F2F2F2;
   padding: 1rem 1.25rem;
   border-radius: 1rem 0 0 1rem;
@@ -145,6 +151,7 @@ a
 .searchFilters
 {
   display: flex;
+  margin-left: 2rem;
   margin-top: 2rem;
   flex-wrap: wrap;
 }
@@ -208,7 +215,7 @@ a
 {
   display: flex;
   align-items: center;
-  margin: 1rem 0 2rem 0;
+  margin: 1rem 0 2rem 1rem;
 }
 
 .searchResultWrapicon
@@ -244,9 +251,13 @@ a
 
 .hosting
 {
-  max-width: 55%;
-  margin: 1rem;
+  min-width: 60%;
+  max-width: 60%;
+  margin-left: 2rem;
   float: left;
+  display: grid;
+  column-gap: 2rem;
+  grid-template-columns: 6fr 3fr;
 }
 
 .hostingMain
@@ -335,9 +346,13 @@ a
 
 .popular
 {
-  width: 33%;
-  margin: 1rem;
+  width: 28%;
+  margin-right: 2rem;
   float: right;
+  display: grid;
+  row-gap: 2rem;
+  align-items: start;
+  grid-template-rows: auto repeat(3, 1fr);
 }
 
 .popularHeaderTitle
