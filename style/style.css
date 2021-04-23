@@ -255,16 +255,15 @@ a
   max-width: 60%;
   margin-left: 2rem;
   float: left;
-  display: grid;
-  column-gap: 2rem;
-  grid-template-columns: 6fr 3fr;
 }
 
 .hostingMain
 {
   display: grid;
   column-gap: 2rem;
+  grid-template-columns: 31% 31% 31%;
   row-gap: 2rem;
+  grid-template-rows: auto 1fr;
 }
 
 .hostingMainHeader
@@ -362,6 +361,7 @@ a
   justify-content: space-between;
   margin-right: 2rem;
   margin-left: 2rem;
+  margin-bottom: 1rem;
 }
 
 .popularMain
