@@ -453,6 +453,10 @@ a
   display: grid;
   width: 100%;
   overflow: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  grid-template-rows: repeat(2, 1fr);
 }
 
 .activityMainCard
@@ -465,10 +469,6 @@ a
   max-width: 90%;
   transition-duration: 0.1s;
   cursor: pointer;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1rem;
-  grid-template-rows: repeat(2, 1fr);
 }
 
 .activityHeaderTitle
