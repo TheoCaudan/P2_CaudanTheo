@@ -570,8 +570,7 @@ a
 
 .footerAbout, .footerHosting, .footerHelp
 {
-  width: 28%;
-  justify-content: center;
+  width: 30%;
 }
 
 .footerHostingContent, .footerAboutContent, .footerHelpContent
