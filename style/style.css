@@ -251,8 +251,8 @@ a
 
 .hosting
 {
-  min-width: 60%;
-  max-width: 60%;
+  min-width: 59%;
+  max-width: 59%;
   margin-left: 2rem;
   margin-right: 2rem;
   float: left;
@@ -452,7 +452,6 @@ a
 {
   width: 100%;
   overflow: hidden;
-  
 }
 
 .activityMainCard
@@ -467,6 +466,17 @@ a
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem 2rem;
+  max-height: 600px;  
+}
+
+.activityMainCardBig
+{
+  height: 100%;
+}
+
+.activityMainCardSmall
+{
+  height: 50%;
 }
 
 .activityHeaderTitle
