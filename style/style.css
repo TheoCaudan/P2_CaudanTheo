@@ -442,10 +442,8 @@ a
 
 .activity
 {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  padding-top: 2rem;
+  height: 550px;
+  margin-bottom: 50px;
 }
 
 .activityMain
@@ -456,29 +454,26 @@ a
 
 .activityMainCard
 {
+  height: 550px;
+  margin-bottom: 50px;
+  display: flex;
+     
+  /*
   background-color: white;
   border-radius: 1.25rem;
   padding: 6px;
   margin-left: 2rem;
-  box-sizing: content-box;
+  box-sizing: border-box;
   max-width: 90%;
   transition-duration: 0.1s;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem 2rem;
-  max-height: 600px; 
+  max-height: 600px;
+  height: auto; 
   padding-left: 4rem; 
-}
-
-.activityMainCardBig
-{
-  min-height: 100%;
-  max-height: 100%;
-}
-
-.activityMainCardSmall
-{
-  height: 50%;
+  grid-template-rows: 1fr;
+  object-fit: cover; */
 }
 
 .activityHeaderTitle
@@ -487,65 +482,97 @@ a
   padding-left: 2rem;
 }
 
-.activityMainCardFigure1
+.activityMainCardColumn1, .activityMainCardColumn2, .activityMainCardColumn3, .activityMainCardColumn4
 {
-  box-shadow: 0 0 20px #0000002E;
-  display: grid;
-  grid-column: 1 / 2;
-  grid-row: 1 / 3;
-  border-radius: 1rem;
-  overflow: auto;
-  transition-duration: 0.1s;
+  display: flex;
+  flex-direction: column;
+  column-width: 20%;
 }
 
-.activityMainCardFigure2
+.activityMainCardColumn1
+{
+  order: 1;
+}
+
+.activityMainCardColumn2
+{
+  order: 2;
+}
+
+.activityMainCardColumn3
+{
+  order: 3;
+}
+
+.activityMainCardColumn4
+{
+  order: 4;
+}
+
+#activityMainCardFigure1
 {
   box-shadow: 0 0 20px #0000002E;
-  display: grid;
-  grid-column: 2/3;
   border-radius: 1rem;
   overflow: hidden;
   transition-duration: 0.1s;
+  position: relative;
+  display: block;
+  grid-area: fig1;
 }
 
-.activityMainCardFigure3
+#activityMainCardFigure2
 {
   box-shadow: 0 0 20px #0000002E;
-  display: grid;
-  grid-column: 2/3;
   border-radius: 1rem;
   overflow: hidden;
   transition-duration: 0.1s;
+  position: relative;
+  display: block;
+  grid-area: fig2;
 }
 
-.activityMainCardFigure4
+#activityMainCardFigure3
 {
   box-shadow: 0 0 20px #0000002E;
-  display: grid;
-  grid-column: 3/4;
   border-radius: 1rem;
   overflow: hidden;
   transition-duration: 0.1s;
+  position: relative;
+  display: block;
+  grid-area: fig3;
 }
 
-.activityMainCardFigure5
+#activityMainCardFigure4
 {
   box-shadow: 0 0 20px #0000002E;
-  display: grid;
-  grid-column: 4/5;
   border-radius: 1rem;
   overflow: hidden;
   transition-duration: 0.1s;
+  position: relative;
+  display: block;
+  grid-area: fig4;
 }
 
-.activityMainCardFigure6
+#activityMainCardFigure5
 {
   box-shadow: 0 0 20px #0000002E;
-  display: grid;
-  grid-column: 4/5;
   border-radius: 1rem;
   overflow: hidden;
   transition-duration: 0.1s;
+  position: relative;
+  display: block;
+  grid-area: fig5;
+}
+
+#activityMainCardFigure6
+{
+  box-shadow: 0 0 20px #0000002E;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition-duration: 0.1s;
+  position: relative;
+  display: block;
+  grid-area: fig6;
 }
 
 .activityMainCardFigure1:hover    
