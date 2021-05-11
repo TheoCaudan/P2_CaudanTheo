@@ -458,10 +458,9 @@ a
 
 .activityMainCard
 {
-  height: 550px;
-  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .activityHeaderTitle
@@ -475,37 +474,36 @@ a
   display: inline-block;
 }
 
-.activityMainCardColumn1, .activityMainCardColumn2, .activityMainCardColumn3, .activityMainCardColumn4
-{
-  width: 20%;
-}
-
 .activityMainCardColumn1
 {
-  order: 1;
+  flex: 1;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .activityMainCardColumn2
 {
-  order: 2;
+  flex: 2;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .activityMainCardColumn3
 {
-  order: 3;
+  flex: 3;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .activityMainCardColumn4
 {
-  order: 4;
+  flex: 4;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .activityMainCardFigure1
@@ -514,6 +512,7 @@ a
   border-radius: 1rem;
   overflow: hidden;
   transition-duration: 0.1s;
+  box-sizing: border-box;
   display: inline-block;
 }
 
@@ -523,6 +522,7 @@ a
   border-radius: 1rem;
   overflow: hidden;
   transition-duration: 0.1s;
+  box-sizing: border-box;
   display: inline-block;
 }
 
@@ -532,6 +532,7 @@ a
   border-radius: 1rem;
   overflow: hidden;
   transition-duration: 0.1s;
+  box-sizing: border-box;
   display: inline-block;
 }
 
@@ -541,6 +542,7 @@ a
   border-radius: 1rem;
   overflow: hidden;
   transition-duration: 0.1s;
+  box-sizing: border-box;
   display: inline-block;
 }
 
@@ -550,6 +552,7 @@ a
   border-radius: 1rem;
   overflow: hidden;
   transition-duration: 0.1s;
+  box-sizing: border-box;
   display: inline-block;
 }
 
@@ -559,6 +562,7 @@ a
   border-radius: 1rem;
   overflow: hidden;
   transition-duration: 0.1s;
+  box-sizing: border-box;
   display: inline-block;
 }
 
@@ -638,3 +642,6 @@ a
 {
   text-decoration: underline;
 }
+
+
+
