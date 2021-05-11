@@ -457,23 +457,7 @@ a
   height: 550px;
   margin-bottom: 50px;
   display: flex;
-     
-  /*
-  background-color: white;
-  border-radius: 1.25rem;
-  padding: 6px;
-  margin-left: 2rem;
-  box-sizing: border-box;
-  max-width: 90%;
-  transition-duration: 0.1s;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 2rem 2rem;
-  max-height: 600px;
-  height: auto; 
-  padding-left: 4rem; 
-  grid-template-rows: 1fr;
-  object-fit: cover; */
+  flex-direction: column;
 }
 
 .activityHeaderTitle
@@ -482,97 +466,102 @@ a
   padding-left: 2rem;
 }
 
+.activityMainCardFigure
+{
+  display: inline-block;
+}
+
 .activityMainCardColumn1, .activityMainCardColumn2, .activityMainCardColumn3, .activityMainCardColumn4
 {
-  display: flex;
-  flex-direction: column;
   column-width: 20%;
 }
 
 .activityMainCardColumn1
 {
   order: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .activityMainCardColumn2
 {
   order: 2;
+  display: flex;
+  flex-direction: column;
 }
 
 .activityMainCardColumn3
 {
   order: 3;
+  display: flex;
+  flex-direction: column;
 }
 
 .activityMainCardColumn4
 {
   order: 4;
+  display: flex;
+  flex-direction: column;
 }
 
-#activityMainCardFigure1
+.activityMainCardFigure1
 {
   box-shadow: 0 0 20px #0000002E;
   border-radius: 1rem;
   overflow: hidden;
   transition-duration: 0.1s;
   position: relative;
-  display: block;
-  grid-area: fig1;
+  display: inline-block;
 }
 
-#activityMainCardFigure2
+.activityMainCardFigure2
 {
   box-shadow: 0 0 20px #0000002E;
   border-radius: 1rem;
   overflow: hidden;
   transition-duration: 0.1s;
   position: relative;
-  display: block;
-  grid-area: fig2;
+  display: inline-block;
 }
 
-#activityMainCardFigure3
+.activityMainCardFigure3
 {
   box-shadow: 0 0 20px #0000002E;
   border-radius: 1rem;
   overflow: hidden;
   transition-duration: 0.1s;
   position: relative;
-  display: block;
-  grid-area: fig3;
+  display: inline-block;
 }
 
-#activityMainCardFigure4
+.activityMainCardFigure4
 {
   box-shadow: 0 0 20px #0000002E;
   border-radius: 1rem;
   overflow: hidden;
   transition-duration: 0.1s;
   position: relative;
-  display: block;
-  grid-area: fig4;
+  display: inline-block;
 }
 
-#activityMainCardFigure5
+.activityMainCardFigure5
 {
   box-shadow: 0 0 20px #0000002E;
   border-radius: 1rem;
   overflow: hidden;
   transition-duration: 0.1s;
   position: relative;
-  display: block;
-  grid-area: fig5;
+  display: inline-block;
 }
 
-#activityMainCardFigure6
+.activityMainCardFigure6
 {
   box-shadow: 0 0 20px #0000002E;
   border-radius: 1rem;
   overflow: hidden;
   transition-duration: 0.1s;
   position: relative;
-  display: block;
-  grid-area: fig6;
+  display: inline-block;
 }
 
 .activityMainCardFigure1:hover    
