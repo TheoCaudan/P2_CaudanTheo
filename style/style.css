@@ -445,8 +445,8 @@ a
 
 .activity
 {
-  height: 550px;
-  margin-bottom: 50px;
+  height: 600px;
+  margin-bottom: 80px;
 }
 
 .activityMain
@@ -460,7 +460,6 @@ a
 {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .activityHeaderTitle
@@ -471,14 +470,13 @@ a
 
 .activityMainCardFigure
 {
-  display: inline-block;
+  display: flex;
 }
 
 .activityMainCardColumn1
 {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .activityMainCardColumn2
@@ -492,7 +490,6 @@ a
 {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .activityMainCardColumn4
@@ -500,6 +497,16 @@ a
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.activityMainCardColumnSmall
+{
+  height: 240px;
+}
+
+.activityMainCardColumnBig
+{
+  height: 550px;
 }
 
 .activityMainCardFigure1
@@ -520,6 +527,7 @@ a
   transition-duration: 0.1s;
   box-sizing: border-box;
   display: inline-block;
+  margin-bottom: 3rem;
 }
 
 .activityMainCardFigure3
@@ -550,6 +558,7 @@ a
   transition-duration: 0.1s;
   box-sizing: border-box;
   display: inline-block;
+  margin-bottom: 4rem;
 }
 
 .activityMainCardFigure6
