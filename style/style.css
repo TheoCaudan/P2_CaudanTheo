@@ -605,7 +605,18 @@ a
 {
   position: relative;
   flex: 1;
-  height: 100%;
+  height: 88%;
+  max-height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.activityMainCardFigureImgSmall
+{
+  position: relative;
+  flex: 1;
+  height: 75%;
+  max-height: 100%;
   width: 100%;
   object-fit: cover;
 }
