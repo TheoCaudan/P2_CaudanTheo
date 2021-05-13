@@ -473,6 +473,21 @@ a
   display: flex;
 }
 
+.activityMainCardFigure a
+{
+  width: 383px;
+}
+
+.activityMainCardColumn1 a, .activityMainCardColumn3 a
+{
+  height: 100%;
+}
+
+.activityMainCardColumn2 a, .activityMainCardColumn4 a
+{
+  height: 50%;
+}
+
 .activityMainCardColumn1
 {
   display: flex;
@@ -483,7 +498,6 @@ a
 {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .activityMainCardColumn3
@@ -496,7 +510,6 @@ a
 {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .activityMainCardColumnSmall
@@ -660,6 +673,3 @@ a
 {
   text-decoration: underline;
 }
-
-
-
