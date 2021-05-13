@@ -502,11 +502,13 @@ a
 .activityMainCardColumnSmall
 {
   height: 240px;
+  width: 383px;
 }
 
 .activityMainCardColumnBig
 {
   height: 550px;
+  width: 383px;
 }
 
 .activityMainCardFigure1
