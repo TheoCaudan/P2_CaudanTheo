@@ -19,10 +19,36 @@ a
     flex-direction: column;
     justify-content: space-between;
   }
+
+  .popular
+  {
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+  }
+
+  .hosting, .popular
+  {
+    background-color: #F2F2F2;
+    border-radius: 1.5rem;
+    padding: 2rem; 
+    margin-bottom: 60px;
+  }
 }
 
 @media screen and (min-width: 1024px)
 {
+  
+  .popular
+  {
+    display: grid;
+    align-items: start;
+    grid-template-rows: auto repeat(3, 1fr);
+    margin-right: unset;
+    margin-left: unset;
+  }
   
   .hosting, .popular
   {
@@ -533,12 +559,7 @@ a
   margin-bottom: 1rem;
 }
 
-.popular
-{
-  display: grid;
-  align-items: start;
-  grid-template-rows: auto repeat(3, 1fr);
-}
+
 
 .popularHeaderTitle
 {
