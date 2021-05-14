@@ -10,8 +10,35 @@ a
   text-decoration: none;
 }
 
+@media screen and (min-width:768px)
+{
+
+  .hostingMain
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
 @media screen and (min-width: 1024px)
 {
+  
+  .hosting, .popular
+  {
+    background-color: #F2F2F2;
+    border-radius: 1.5rem;
+    padding: 2rem; 
+    margin-bottom: 60px;
+  }
+
+  .hostingPopular
+  {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 64% 33%;
+  }
+
   .hostingMain 
   {
     display: grid;
@@ -70,22 +97,58 @@ a
     color: #D9D9D9;
   }
 
+  .activityMainCardColumnSmall
+  {
+    height: 240px;
+    width: 383px;
+  }
+
+  .activityMainCardColumnBig
+  {
+    height: 550px;
+    width: 383px;
+  }
+
   .activityMainCardColumnBig, .activityMainCardColumnSmall
   {
     max-width: 200px;
     margin-left: 20px;
     margin-right: 20px;
   }
+
+  .activityMainCardFigureCaptionTitle
+  {
+    font-size: 0.9em;
+  }
 }
 
 @media screen and (min-width: 1440px)
 {
+  .activityMainCardColumnSmall
+  {
+    height: 240px;
+    width: 383px;
+  }
+
+  .activityMainCardColumnBig
+  {
+    height: 550px;
+    width: 383px;
+  }
+
+
   .activityMainCardColumnBig, .activityMainCardColumnSmall
   {
     max-width: 310px;
     margin-left: 20px;
     margin-right: 20px;
   }
+
+  .activityMainCardFigureCaptionTitle
+  {
+    font-size: 1.17em;
+  }
+
   .hostingMain
   {
     display: grid;
@@ -133,6 +196,23 @@ a
   .popularMainCardGradeIcon[data-active=false]
   {
     color: #D9D9D9;
+  }
+}
+
+@media screen and (min-width: 2560px)
+{
+  .activityMainCardColumnSmall
+  {
+    height: 240px;
+    width: 550px;
+    max-width: 550px;
+  }
+
+  .activityMainCardColumnBig
+  {
+    height: 550px;
+    width: 550px;
+    max-width: 550px;
   }
 }
 
@@ -368,20 +448,6 @@ a
   margin: 0;
 }
 
-.hosting, .popular
-{
-  background-color: #F2F2F2;
-  border-radius: 1.5rem;
-  padding: 2rem; 
-  margin-bottom: 60px;
-}
-
-.hostingPopular
-{
-  width: 100%;
-  display: grid;
-  grid-template-columns: 64% 33%;
-}
 
 .hosting
 {
@@ -588,18 +654,6 @@ a
 {
   display: flex;
   flex-direction: column;
-}
-
-.activityMainCardColumnSmall
-{
-  height: 240px;
-  width: 383px;
-}
-
-.activityMainCardColumnBig
-{
-  height: 550px;
-  width: 383px;
 }
 
 .activityMainCardFigure1
