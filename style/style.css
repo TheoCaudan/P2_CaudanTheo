@@ -49,14 +49,6 @@ a
     margin-right: unset;
     margin-left: unset;
   }
-  
-  .hosting, .popular
-  {
-    background-color: #F2F2F2;
-    border-radius: 1.5rem;
-    padding: 2rem; 
-    margin-bottom: 60px;
-  }
 
   .hostingPopular
   {
