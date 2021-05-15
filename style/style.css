@@ -80,6 +80,7 @@ a
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-right: 2.5rem;
   }
 
   .hosting
@@ -266,6 +267,11 @@ a
     height: 550px;
     width: 550px;
     max-width: 550px;
+  }
+
+  .popular
+  {
+    margin-right: 2.5rem;
   }
 }
 
