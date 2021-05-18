@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Reservia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
@@ -10,14 +11,13 @@
     <script src='https://kit.fontawesome.com/e7591b0429.js' crossorigin='anonymous'></script>
 </head>
 <body>
-    <header class="header">
-        <img class="headerImg" src="./img/reservia_logo.svg" alt="Reservia">
-        <nav class="headerNav">
-            <a class="headerNavLink" href="#hosting" data-active="true">Hébergement</a>
-            <a class="headerNavLink" href="#activity" data-active="false">Activités</a>
-        </nav>
-        <a class="headerSignup" href="#signup">S'inscrire</a>
+    <header class="header header-fl">
+        <img class="header-1 headerImg" src="./img/reservia_logo.svg" alt="Reservia">
+        <a class="headerNavLink header-3" href="#hosting" data-active="true">Hébergement</a>
+        <a class="headerNavLink header-4" href="#activity" data-active="false">Activités</a>
+        <a class="header-2 headerSignup" href="#signup">S'inscrire</a>
     </header>
+
     <main>
         <section class="search">
             <div class="searchHeader">
@@ -30,8 +30,7 @@
             </span>
                 <input class="searchFormSearchinput" type="search" placeholder="Marseille, France">
                 <button class="searchFormSubmitinput">
-                    <span class="searchFormSubmitinputText">Rechercher &nbsp; <i class="searchFormSubmitinputIcon fas fa-search"></i></span>
-                    
+                    <span class="searchFormSubmitinputText">Rechercher <i class="searchFormSubmitinputIcon fas fa-search"></i></span>
                 </button>
             </form>
             <div class="searchFilters">
