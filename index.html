@@ -5,6 +5,7 @@
     <title>Reservia</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="img/Reservia.ico"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -24,13 +25,16 @@
                 <h1 class="searchHeaderTitle">Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p class="searchHeaderSubtitle">En plein centre ville ou en pleine nature</p>
             </div>
-            <form>
+            <form class="searchForm">
             <span class="searchFormWrapicon">
                 <i class="fas fa-map-marker-alt searchFormWrapiconIcon"></i>
             </span>
                 <input class="searchFormSearchinput" type="search" placeholder="Marseille, France">
                 <button class="searchFormSubmitinput">
-                    <span class="searchFormSubmitinputText">Rechercher <i class="searchFormSubmitinputIcon fas fa-search"></i></span>
+                    <span class="searchFormSubmitinputText">Rechercher &nbsp;<i class="searchFormSubmitinputIcon fas fa-search"></i></span>
+                </button>
+                <button class="searchFormSubmitinputSmallScreen">
+                    <span><i class="searchFormSubmitinputIcon fas fa-search"></i></span>
                 </button>
             </form>
             <div class="searchFilters">
@@ -441,6 +445,71 @@
                     </div>
                 </div>
             </div>
+        </section>
+        <section class="activitySmallScreen">
+            <div class="activityHeader">
+                <h2 class="activityHeaderTitle">Activités à Marseille</h2>
+            </div>
+            <article class="activityMainCardFigure">
+                <a href="#">
+                    <figure class="activityMainCardFigure1 activityMainCardColumnBig">
+                        <img class="activityMainCardFigureImg" src="./img/activities/medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux port">
+                        <figcaption class="activityMainCardFigureCaption">
+                            <h3 class="activityMainCardFigureCaptionTitle">Vieux Port</h3>
+                        </figcaption>
+                    </figure>
+                </a>
+            </article>
+            <article class="activityMainCardFigure">
+                <a href="#">
+                    <figure class="activityMainCardFigure2 activityMainCardColumnSmall">
+                        <img class="activityMainCardFigureImgSmall" src="./img/activities/small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomegues">
+                        <figcaption class="activityMainCardFigureCaption">
+                            <h3 class="activityMainCardFigureCaptionTitle">Fort de Pomègues</h3>
+                        </figcaption>
+                    </figure>
+                </a>
+            </article>
+            <article class="activityMainCardFigure">
+                <a href="#">
+                    <figure class="activityMainCardFigure3 activityMainCardColumnSmall">
+                        <img class="activityMainCardFigureImgSmall" src="./img/activities/small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Iles du frioul">
+                        <figcaption class="activityMainCardFigureCaption">
+                            <h3 class="activityMainCardFigureCaptionTitle">Îles du Frioul</h3>
+                        </figcaption>
+                    </figure>
+                </a>
+            </article>
+            <article class="activityMainCardFigure">
+                <a href="#">
+                    <figure class="activityMainCardFigure4 activityMainCardColumnBig">
+                        <img class="activityMainCardFigureImg" src="./img/activities/medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc national des calanques">
+                        <figcaption class="activityMainCardFigureCaption">
+                            <h3 class="activityMainCardFigureCaptionTitle">Parc National des Calanques</h3>
+                        </figcaption>
+                    </figure>
+                </a>
+            </article>
+            <article class="activityMainCardFigure">
+                <a href="#">
+                    <figure class="activityMainCardFigure5 activityMainCardColumnSmall">
+                        <img class="activityMainCardFigureImgSmall" src="./img/activities/small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-dame-de-la-garde">
+                        <figcaption class="activityMainCardFigureCaption">
+                            <h3 class="activityMainCardFigureCaptionTitle">Notre-Dame-de-la-Garde</h3>
+                        </figcaption>
+                    </figure>
+                </a>
+            </article>
+            <article class="activityMainCardFigure">
+                <a href="#">
+                    <figure class="activityMainCardFigure6 activityMainCardColumnSmall">
+                        <img class="activityMainCardFigureImgSmall" src="./img/activities/small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc longchamp">
+                        <figcaption class="activityMainCardFigureCaption">
+                            <h3 class="activityMainCardFigureCaptionTitle">Parc Longchamp</h3>
+                        </figcaption>
+                    </figure>
+                </a>
+            </article>
         </section>
     </main>
     <footer class="footer">
