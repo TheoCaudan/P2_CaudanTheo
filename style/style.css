@@ -546,11 +546,10 @@ a {
   }
 
   .searchFormWrapicon { 
-    margin-left: 10px;
-    margin-right: 0;
     width: 23px;
-    height: 16px;
-   }
+    margin-left: 0;
+  }
+
   .searchHeaderTitle { 
     padding-left: 0;
     width: 320px;
@@ -579,7 +578,6 @@ a {
     font-family: "Raleway", "Sans-serif";
     font-size: 1rem;
     cursor: pointer;
-    margin-right: 10px;
   }
   .searchFormSubmitinput { display: none }
 
@@ -686,7 +684,7 @@ a {
  }
 
   .footerAbout, .footerHosting, .footerHelp {
-    width: 100%;
+    width: 85%;
     padding-left: 15%;
   }
 }
