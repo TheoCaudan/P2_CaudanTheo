@@ -620,7 +620,6 @@ a {
   .hostingMainHeaderTitle { padding-left: 5px }
 
   .popular {
-      width: 100%;
       padding-top: 20px;
       margin-bottom: 20px;
       border-radius: 0;
@@ -629,6 +628,7 @@ a {
       width: 320px;
       padding-left: 0;
       padding-right: 0;
+      background-color: white;
   }
   .popularHeaderTitle { 
     margin-left: 5px;
@@ -673,6 +673,7 @@ a {
     width: 320px;
     margin-bottom: 10px;
     margin-right: auto;
+    border-radius: 0;
   }
   .activityMainCardFigureImg { height: 75% }
 
