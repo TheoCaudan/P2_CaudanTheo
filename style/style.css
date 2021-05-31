@@ -466,7 +466,7 @@ a {
 }
 .footerContentLink:hover { text-decoration: underline }
 
-@media (min-device-width: 320px) and (max-device-width: 480px) {
+@media (min-device-width: 320px) and (max-device-width: 425px) {
   .header {
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr 1fr;
@@ -594,12 +594,15 @@ a {
   }
   .hosting { display: none }
 
+  .hosting, .popular, .hostingSmallScreen {
+    background-color: white;
+  }
   .hostingSmallScreen { 
     display: block;
     border-radius: 0;
     padding-top: 20px;
     width: 100%;
-    background-color: #FFFFFF;
+    background-color: white;
     margin-bottom: -33px;
     margin-left: auto;
     margin-right: auto;
@@ -688,4 +691,155 @@ a {
     width: 85%;
     padding-left: 15%;
   }
+}
+@media (min-device-width: 426px) and (max-device-width: 768px) {
+  .searchHeaderTitle {
+    margin-right: auto;
+    width: 100%;
+  }
+  .searchFormSearchinput {
+    padding-right: 0;
+    min-width: 180px;
+    width: 180px;
+    max-width: 180px;
+  }
+  .searchFormSearchinput::placeholder { 
+    min-width: 100px;
+    width: 180px;
+    padding-right: 0;
+  }
+  .hosting { display: none }
+
+  .popular, .hostingSmallScreen {
+    background-color: white;
+  }
+  .headerSignup { 
+    padding-right: 10px;
+    padding-left: 0;
+  }
+  .headerNavLink { 
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .headerNavLink.header-4 { margin-left: 128px }
+
+  .hostingSmallScreen { 
+    display: block;
+    border-radius: 0;
+    padding-top: 20px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: -33px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .hostingPopular { 
+    display: flex;
+    flex-direction: column;
+  }
+  .hostingMain {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    padding-left: 0;
+  }
+  .hostingMainHeaderTitle { padding-left: 5px }
+
+  .popular {
+      padding-top: 20px;
+      margin-bottom: 20px;
+      border-radius: 0;
+      margin-left: auto;
+      margin-right: auto;
+      width: 320px;
+      padding-left: 0;
+      padding-right: 0;
+      background-color: white;
+  }
+  .popularHeaderTitle { 
+    margin-left: 5px;
+    margin-bottom: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 275px;
+    padding-left: 18px;}
+
+  .popularMainCard { max-width: 275px }
+
+  .popularMainCardFigureImg, .popularMainCardFigureImgSmall {
+    width: 48%;
+  }
+  .activity { display: none }
+  
+  .activitySmallScreen { 
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 54px;
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .activityHeaderTitle { padding-left: 0 }
+
+  .activityMainCardFigure { 
+    height: 250px; 
+    margin-left: auto;
+    margin-bottom: 10px;
+    width: 320px;
+    margin-right: auto;
+  }
+
+  .activityMainCardFigure1, .activityMainCardFigure2, .activityMainCardFigure3,
+  .activityMainCardFigure4, .activityMainCardFigure5, .activityMainCardFigure6 { 
+    height: 250px;
+    margin-left: auto;
+    width: 320px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    border-radius: 0;
+  }
+  .activityMainCardFigureImg { height: 75% }
+
+  .activityMainCardFigureImg, .activityMainCardFigureImgSmall { max-width: 100% }
+
+  .footer { 
+    margin-top: 33px;
+    flex-direction: column;
+ }
+
+  .footerAbout, .footerHosting, .footerHelp {
+    width: 85%;
+    padding-left: 15%;
+  }
+}
+@media (min-device-width: 769px) and (max-device-width: 1024px) {
+  .hostingPopular { grid-template-columns: 61% 35% }
+
+  .hostingMain { 
+    display: grid;
+    column-gap: 2rem;
+    grid-template-columns: 45% 45%;
+    row-gap: 2rem;
+    grid-template-rows: auto auto 1fr;
+  }
+  .popularMainCardFigureCaptionTitle {
+    margin-left: 35%;
+    margin-right: 0;
+    font-size: medium;
+  }
+  .popularMainCardDesc { margin-left: 35% }
+  
+  .popularMainCardGrade { margin-left: 35% }
+}
+@media (min-device-width: 1025px) and (max-device-width: 1440px) {
+
+}
+@media (min-device-width: 1441px) and (max-device-width: 2560px) {
+  
 }
