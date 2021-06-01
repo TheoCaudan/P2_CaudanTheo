@@ -431,7 +431,7 @@ a {
   margin: 1rem 0;
 }
 .footerContentLink:hover { text-decoration: underline }
-@media (min-device-width: 320px) and (max-device-width: 425px) {
+@media screen and (min-width: 320px) and (max-width: 425px) {
   .header {
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr 1fr;
@@ -638,7 +638,7 @@ a {
     padding-left: 15%;
   }
 }
-@media (min-device-width: 426px) and (max-device-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
   .searchHeaderTitle {
     margin-right: auto;
     width: 100%;
@@ -754,7 +754,7 @@ a {
     padding-left: 15%;
   }
 }
-@media (min-device-width: 769px) and (max-device-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   .hostingPopular { grid-template-columns: 61% 35% }
   .hostingMain { 
     display: grid;
@@ -793,7 +793,7 @@ a {
     width: 80%;
   }
 }
-@media (min-device-width: 1025px) and (max-device-width: 1440px) {
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
   .popularMainCardFigureImg, .popularMainCardFigureImgSmall { max-height: 148px }
   .popularMainCardFigureCaptionTitle {
     margin-left: 34%;
@@ -817,7 +817,7 @@ a {
   }
   .activityMainCardColumn1 { margin-left: 2rem }
 }
-@media (min-device-width: 1441px) and (max-device-width: 2560px) {
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
   .activityMainCardColumnSmall, .activityMainCardColumnBig {
     width: 95%;
     margin-left: auto;
