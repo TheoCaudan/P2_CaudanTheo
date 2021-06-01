@@ -785,15 +785,43 @@ a {
     flex-wrap: wrap;
     margin-left: 0;
     margin-right: 0;
+    justify-content: center;
   }
   .activityMainCardColumnBig, .activityMainCardColumnSmall { 
     margin-left: 2rem;
     margin-right: 2rem;
-    width: 80% }
+    width: 80%;
+  }
 }
 @media (min-device-width: 1025px) and (max-device-width: 1440px) {
   .popularMainCardFigureImg, .popularMainCardFigureImgSmall { max-height: 148px }
+  .popularMainCardFigureCaptionTitle {
+    margin-left: 34%;
+    margin-right: 0;
+    font-size: medium;
+    width: unset;
+  }
+  .popularMainCard { margin: 0 }
+  .popularMainCardDesc { margin-left: 34% }  
+  .popularMainCardGrade { margin-left: 34% }
+  .popularMainCardFigureImg, .popularMainCardFigureImgSmall { 
+    min-height: 0;
+    height: 148px;
+  }    
+  .popularMainCardDesc { margin-left: 34% }
+  .popularMainCardGrade { margin-left: 34% }
+  .activityMainCardColumnSmall, .activityMainCardColumnBig {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .activityMainCardColumn1 { margin-left: 2rem }
 }
 @media (min-device-width: 1441px) and (max-device-width: 2560px) {
-  
+  .activityMainCardColumnSmall, .activityMainCardColumnBig {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .activityMainCardColumn1 { margin-left: 2rem }  
 }
