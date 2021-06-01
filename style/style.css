@@ -88,7 +88,6 @@ a {
   text-align: center;
 }
 .searchFormWrapiconIcon { padding-left: 0.1rem }
-
 .searchFormSearchinput {
   border-right: none;
   border-left: none;
@@ -114,13 +113,11 @@ a {
   border: none;
   min-height: 48px;
   border-radius: 0 1rem 1rem 0;
-  padding: 0 3rem;
   font-family: "Raleway", "Sans-serif";
   font-size: 1rem;
   cursor: pointer;
 }
 .searchFormSubmitinputSmallScreen { display:none }
-
 .searchFilters {
   display: flex;
   padding-left: 2rem;
@@ -144,7 +141,6 @@ a {
   font-weight: bold;
 }
 .searchFiltersFilter:last-child { margin-right:0 }
-
 .searchFiltersFilter:hover {
   background-color: #F3F8FF;
   transform: scale(1.025);
@@ -162,7 +158,6 @@ a {
   margin: -2px;
 }
 .searchFiltersFiltersWrapiconIcon { color: blue }
-
 .searchFiltersFilterTitle {
   margin: 0 1rem;
 }
@@ -211,9 +206,7 @@ a {
   grid-template-rows: auto 1fr;
 }
 .hostingMainHeader { grid-column: 1/-1 }
-
 .hostingMainHeaderTitle { margin: 0 }
-
 .hostingMainCard {
   background-color: white;
   border-radius: 1.25rem;
@@ -225,9 +218,7 @@ a {
   cursor: pointer;
 }
 .hostingMainCard:hover { transform: scale(1.025) }
-
 .hostingMainCardFigure { margin: 0 }
-
 .hostingMainCardFigureImg {
   height: 7rem;
   width: 100%;
@@ -237,17 +228,11 @@ a {
   object-fit: cover;
 }
 .hostingMainCardFigureCaptionTitle { margin: 0.25rem 0.75rem 0 0.75rem }
-
 .hostingMainCardDesc { margin: 0.25rem 0.75rem 0.25rem 0.75rem }
-
 .hostingMainCardDescPrice { font-weight: bold }
-
 .hostingMainCardGrade { margin: 0 0.75rem 0.25rem 0.75rem }
-
 .hostingMainCardGradeIcon[data-active=true] { color: #0065FC }
-
 .hostingMainCardGradeIcon[data-active=false] { color: #D9D9D9 }
-
 .hostingMainViewmore {
   font-weight: bold;
   margin-bottom: 1rem;
@@ -286,7 +271,6 @@ a {
   cursor: pointer;
 }
 .popularMainCard:hover { transform: scale(1.025) }
-
 .popularMainCardFigure {
   position: relative;
   min-height: 100%;
@@ -303,17 +287,11 @@ a {
   position: absolute;
 }
 .popularMainCardFigureCaptionTitle { margin: 0.25rem 0.75rem 0 9rem }
-
 .popularMainCardDesc { margin: 0.25rem 0.75rem 0 9rem }
-
 .popularMainCardDescPrice { font-weight: bold }
-
 .popularMainCardGrade { margin: 0 0.75rem 0 9rem }
-
 .popularMainCardGradeIcon[data-active=true] { color: #0065FC }
-
 .popularMainCardGradeIcon[data-active=false] { color: #D9D9D9 }
-
 .activity {
   height: 600px;
   margin-bottom: 80px;
@@ -332,13 +310,9 @@ a {
   padding-left: 2rem;
 }
 .activityMainCardFigure { display: flex }
-
 .activityMainCardFigure a { width: 383px }
-
 .activityMainCardColumn1 a, .activityMainCardColumn3 a { height: 100% }
-
 .activityMainCardColumn2 a, .activityMainCardColumn4 a { height: 50% }
-
 .activityMainCardColumn1 {
   display: flex;
   flex-direction: column;
@@ -416,17 +390,11 @@ a {
   display: inline-block;
 }
 .activityMainCardFigure1:hover { transform: scale(1.025) }
-
 .activityMainCardFigure2:hover { transform: scale(1.025) }
-
 .activityMainCardFigure3:hover { transform: scale(1.025) }
-
 .activityMainCardFigure4:hover { transform: scale(1.025) }
-
 .activityMainCardFigure5:hover { transform: scale(1.025) }
-
 .activityMainCardFigure6:hover { transform: scale(1.025) }
-
 .activityMainCardFigureImg {
   position: relative;
   flex: 1;
@@ -444,7 +412,6 @@ a {
   object-fit: cover;
 }
 .activityMainCardFigureCaptionTitle { margin: 1.2rem 1.5rem }
-
 .footer { 
   background-color: #F2F2F2;
   width: 100%;
@@ -455,7 +422,6 @@ a {
   box-sizing: border-box;
 }
 .footerAbout, .footerHosting, .footerHelp { width: 30% }
-
 .footerHostingContent, .footerAboutContent, .footerHelpContent {
   list-style: none;
   margin-left: -2.5rem;
@@ -465,7 +431,6 @@ a {
   margin: 1rem 0;
 }
 .footerContentLink:hover { text-decoration: underline }
-
 @media (min-device-width: 320px) and (max-device-width: 425px) {
   .header {
     grid-template-columns: 50% 50%;
@@ -474,13 +439,11 @@ a {
     margin-right: auto;
   }
   .header-1 { grid-area: 1 / 1 / 2 / 2 }
-
   .headerImg {
     justify-content: center;
     align-content: center;
     height: 2.813rem;
   }
-
   .header-2 { 
     grid-area: 1 / 2 / 2 / 3;
     align-self: end;
@@ -508,11 +471,8 @@ a {
     padding-right: 0;
     padding-left: 0; 
   }
-
   .headerNav { display: block }
-
   .headerSignup { display: block }
-
   .headerNavLink { 
     padding-bottom: 20px;
     width: 104%;
@@ -523,7 +483,6 @@ a {
     border-top: none;
   }
   .headerNavLink[data-active=false] { border: none }
-
   .headerNavLink:hover {
     border-top: none;
     border-bottom: 4px solid #0065FC;
@@ -544,12 +503,10 @@ a {
     justify-content: center;
     align-items: center;
   }
-
   .searchFormWrapicon { 
     width: 23px;
     margin-left: 0;
   }
-
   .searchHeaderTitle { 
     padding-left: 0;
     width: 320px;
@@ -562,7 +519,6 @@ a {
     margin-right: auto;
     width: 320px;
   }
-
   .searchFormSubmitinputSmallScreen {
     display: block;
     padding: 0;
@@ -580,7 +536,6 @@ a {
     cursor: pointer;
   }
   .searchFormSubmitinput { display: none }
-
   .searchFormSearchinput {
     padding-right: 0;
     min-width: 180px;
@@ -593,7 +548,6 @@ a {
     padding-right: 0;
   }
   .hosting { display: none }
-
   .hosting, .popular, .hostingSmallScreen {
     background-color: white;
   }
@@ -621,7 +575,6 @@ a {
     padding-left: 0;
   }
   .hostingMainHeaderTitle { padding-left: 5px }
-
   .popular {
       padding-top: 20px;
       margin-bottom: 20px;
@@ -639,15 +592,13 @@ a {
     margin-right: auto;
     margin-left: auto;
     width: 275px;
-    padding-left: 18px;}
-
+    padding-left: 18px;
+  }
   .popularMainCard { max-width: 275px }
-
   .popularMainCardFigureImg, .popularMainCardFigureImgSmall {
     width: 48%;
   }
-  .activity { display: none }
-  
+  .activity { display: none }  
   .activitySmallScreen { 
     display: flex;
     flex-direction: column;
@@ -660,7 +611,6 @@ a {
     margin-right: auto;
   }
   .activityHeaderTitle { padding-left: 0 }
-
   .activityMainCardFigure { 
     height: 250px; 
     margin-left: auto;
@@ -668,7 +618,6 @@ a {
     width: 320px;
     margin-right: auto;
   }
-
   .activityMainCardFigure1, .activityMainCardFigure2, .activityMainCardFigure3,
   .activityMainCardFigure4, .activityMainCardFigure5, .activityMainCardFigure6 { 
     height: 250px;
@@ -679,14 +628,11 @@ a {
     border-radius: 0;
   }
   .activityMainCardFigureImg { height: 75% }
-
   .activityMainCardFigureImg, .activityMainCardFigureImgSmall { max-width: 100% }
-
   .footer { 
     margin-top: 33px;
     flex-direction: column;
- }
-
+  }
   .footerAbout, .footerHosting, .footerHelp {
     width: 85%;
     padding-left: 15%;
@@ -709,7 +655,6 @@ a {
     padding-right: 0;
   }
   .hosting { display: none }
-
   .popular, .hostingSmallScreen {
     background-color: white;
   }
@@ -722,7 +667,6 @@ a {
     padding-right: 10px;
   }
   .headerNavLink.header-4 { margin-left: 128px }
-
   .hostingSmallScreen { 
     display: block;
     border-radius: 0;
@@ -747,7 +691,6 @@ a {
     padding-left: 0;
   }
   .hostingMainHeaderTitle { padding-left: 5px }
-
   .popular {
       padding-top: 20px;
       margin-bottom: 20px;
@@ -765,15 +708,13 @@ a {
     margin-right: auto;
     margin-left: auto;
     width: 275px;
-    padding-left: 18px;}
-
+    padding-left: 18px;
+  }
   .popularMainCard { max-width: 275px }
-
   .popularMainCardFigureImg, .popularMainCardFigureImgSmall {
     width: 48%;
   }
-  .activity { display: none }
-  
+  .activity { display: none }  
   .activitySmallScreen { 
     display: flex;
     flex-direction: column;
@@ -786,7 +727,6 @@ a {
     margin-right: auto;
   }
   .activityHeaderTitle { padding-left: 0 }
-
   .activityMainCardFigure { 
     height: 250px; 
     margin-left: auto;
@@ -794,7 +734,6 @@ a {
     width: 320px;
     margin-right: auto;
   }
-
   .activityMainCardFigure1, .activityMainCardFigure2, .activityMainCardFigure3,
   .activityMainCardFigure4, .activityMainCardFigure5, .activityMainCardFigure6 { 
     height: 250px;
@@ -805,14 +744,11 @@ a {
     border-radius: 0;
   }
   .activityMainCardFigureImg { height: 75% }
-
   .activityMainCardFigureImg, .activityMainCardFigureImgSmall { max-width: 100% }
-
   .footer { 
     margin-top: 33px;
     flex-direction: column;
- }
-
+  }
   .footerAbout, .footerHosting, .footerHelp {
     width: 85%;
     padding-left: 15%;
@@ -820,7 +756,6 @@ a {
 }
 @media (min-device-width: 769px) and (max-device-width: 1024px) {
   .hostingPopular { grid-template-columns: 61% 35% }
-
   .hostingMain { 
     display: grid;
     column-gap: 2rem;
@@ -829,16 +764,35 @@ a {
     grid-template-rows: auto auto 1fr;
   }
   .popularMainCardFigureCaptionTitle {
-    margin-left: 35%;
+    margin-left: 34%;
     margin-right: 0;
     font-size: medium;
+    width: unset;
   }
-  .popularMainCardDesc { margin-left: 35% }
-  
-  .popularMainCardGrade { margin-left: 35% }
+  .popularMainCard { margin: 0 }
+  .popularMainCardDesc { margin-left: 34% }  
+  .popularMainCardGrade { margin-left: 34% }
+  .popularMainCardFigureImg, .popularMainCardFigureImgSmall { 
+    min-height: 0;
+    height: 148px;
+  }    
+  .popularMainCardDesc { margin-left: 34% }
+  .popularMainCardGrade { margin-left: 34% }
+  .activity { height: 1160px }
+  .activityMain { column-count: 2 }
+  .activityMainCard { 
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .activityMainCardColumnBig, .activityMainCardColumnSmall { 
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 80% }
 }
 @media (min-device-width: 1025px) and (max-device-width: 1440px) {
-
+  .popularMainCardFigureImg, .popularMainCardFigureImgSmall { max-height: 148px }
 }
 @media (min-device-width: 1441px) and (max-device-width: 2560px) {
   
