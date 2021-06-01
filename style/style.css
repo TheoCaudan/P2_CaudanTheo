@@ -641,6 +641,7 @@ a {
 @media screen and (min-width: 426px) and (max-width: 768px) {
   .searchHeaderTitle {
     margin-right: auto;
+    margin-left: auto;
     width: 100%;
   }
   .searchFormSearchinput {
@@ -671,12 +672,11 @@ a {
     display: block;
     border-radius: 0;
     padding-top: 20px;
-    width: 100%;
     background-color: white;
     margin-bottom: -33px;
     margin-left: auto;
     margin-right: auto;
-    width: 320px;
+    width: 400px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -687,9 +687,10 @@ a {
   .hostingMain {
     display: flex;
     flex-direction: column;
-    max-width: 320px;
+    max-width: 400px;
     padding-left: 0;
   }
+  .hostingMainCard { width: 400px }
   .hostingMainHeaderTitle { padding-left: 5px }
   .popular {
       padding-top: 20px;
@@ -697,23 +698,21 @@ a {
       border-radius: 0;
       margin-left: auto;
       margin-right: auto;
-      width: 320px;
+      width: 400px;
       padding-left: 0;
       padding-right: 0;
       background-color: white;
   }
   .popularHeaderTitle { 
-    margin-left: 5px;
     margin-bottom: 1rem;
     margin-right: auto;
     margin-left: auto;
-    width: 275px;
-    padding-left: 18px;
+    width: 400px;
+    padding-left: 5px;
   }
-  .popularMainCard { max-width: 275px }
-  .popularMainCardFigureImg, .popularMainCardFigureImgSmall {
-    width: 48%;
-  }
+  .popularHeaderTitleIcon { padding-left: 100px }
+  .popularMainCard { max-width: 400px }
+  .popularMainCardFigureImg, .popularMainCardFigureImgSmall { width: 128px }
   .activity { display: none }  
   .activitySmallScreen { 
     display: flex;
@@ -722,7 +721,7 @@ a {
     justify-content: center;
     align-items: center;
     margin-top: 54px;
-    width: 480px;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -731,14 +730,14 @@ a {
     height: 250px; 
     margin-left: auto;
     margin-bottom: 10px;
-    width: 320px;
+    width: 400px;
     margin-right: auto;
   }
   .activityMainCardFigure1, .activityMainCardFigure2, .activityMainCardFigure3,
   .activityMainCardFigure4, .activityMainCardFigure5, .activityMainCardFigure6 { 
     height: 250px;
     margin-left: auto;
-    width: 320px;
+    width: 400px;
     margin-bottom: 10px;
     margin-right: auto;
     border-radius: 0;
@@ -764,20 +763,19 @@ a {
     grid-template-rows: auto auto 1fr;
   }
   .popularMainCardFigureCaptionTitle {
-    margin-left: 34%;
+    margin-left: 89px;
     margin-right: 0;
     font-size: medium;
     width: unset;
   }
   .popularMainCard { margin: 0 }
-  .popularMainCardDesc { margin-left: 34% }  
-  .popularMainCardGrade { margin-left: 34% }
+  .popularMainCardDesc { margin-left: 89px }  
+  .popularMainCardGrade { margin-left: 89px }
   .popularMainCardFigureImg, .popularMainCardFigureImgSmall { 
     min-height: 0;
     height: 148px;
+    width: 85px;
   }    
-  .popularMainCardDesc { margin-left: 34% }
-  .popularMainCardGrade { margin-left: 34% }
   .activity { height: 1160px }
   .activityMain { column-count: 2 }
   .activityMainCard { 
@@ -794,22 +792,20 @@ a {
   }
 }
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
-  .popularMainCardFigureImg, .popularMainCardFigureImgSmall { max-height: 148px }
+  .popularMainCardFigureImg, .popularMainCardFigureImgSmall { 
+    max-height: 148px;
+    width: 85px;
+  }
   .popularMainCardFigureCaptionTitle {
-    margin-left: 34%;
+    margin-left: 89px;
     margin-right: 0;
     font-size: medium;
     width: unset;
   }
   .popularMainCard { margin: 0 }
-  .popularMainCardDesc { margin-left: 34% }  
-  .popularMainCardGrade { margin-left: 34% }
-  .popularMainCardFigureImg, .popularMainCardFigureImgSmall { 
-    min-height: 0;
-    height: 148px;
-  }    
-  .popularMainCardDesc { margin-left: 34% }
-  .popularMainCardGrade { margin-left: 34% }
+  .popularMainCardDesc { margin-left: 89px }  
+  .popularMainCardGrade { margin-left: 89px } 
+  .activityMain { flex-direction: row }
   .activityMainCardColumnSmall, .activityMainCardColumnBig {
     width: 95%;
     margin-left: auto;
@@ -818,6 +814,7 @@ a {
   .activityMainCardColumn1 { margin-left: 2rem }
 }
 @media screen and (min-width: 1441px) and (max-width: 2560px) {
+  .activityMain { flex-direction: row }
   .activityMainCardColumnSmall, .activityMainCardColumnBig {
     width: 95%;
     margin-left: auto;
