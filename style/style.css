@@ -832,3 +832,4 @@ a {
   }
   .activityMainCardColumn1 { margin-left: 2rem }  
 }
+@media screen and (min-width: 769px) { .activityMainCard { display: block } }
