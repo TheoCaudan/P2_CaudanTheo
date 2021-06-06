@@ -798,17 +798,9 @@ a {
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
   .popularMainCardFigureImg, .popularMainCardFigureImgSmall { 
     max-height: 148px;
-    width: 85px;
-  }
-  .popularMainCardFigureCaptionTitle {
-    margin-left: 89px;
-    margin-right: 0;
-    font-size: medium;
-    width: unset;
+    width: 135px;
   }
   .popularMainCard { margin: 0 }
-  .popularMainCardDesc { margin-left: 89px }  
-  .popularMainCardGrade { margin-left: 89px } 
   .activityMain { 
     flex-direction: row;
     flex-wrap: wrap;
