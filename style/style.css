@@ -644,11 +644,8 @@ a {
     width: 85%;
     padding-left: 15%;
   }
-  /*@media screen and (min-width: 384px) and (max-width: 425px) {
-    .popularMainCardFigureCaptionTitle, .popularMainCardDesc, .popularMainCardGrade { margin: 0.25rem 0.75rem 0 10rem }
-  }*/
 }
-@media screen and (min-width: 426px) and (max-width: 768px) {
+  @media screen and (min-width: 426px) and (max-width: 768px) {
   .searchHeaderTitle {
     margin-right: auto;
     margin-left: auto;
