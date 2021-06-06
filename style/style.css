@@ -286,10 +286,10 @@ a {
   object-fit: cover;
   position: absolute;
 }
-.popularMainCardFigureCaptionTitle { margin: 0.25rem 0.75rem 0 9rem }
-.popularMainCardDesc { margin: 0.25rem 0.75rem 0 9rem }
+.popularMainCardFigureCaptionTitle { margin: 0.25rem 0.75rem 0 10rem }
+.popularMainCardDesc { margin: 0.25rem 0.75rem 0 10rem }
 .popularMainCardDescPrice { font-weight: bold }
-.popularMainCardGrade { margin: 0 0.75rem 0 9rem }
+.popularMainCardGrade { margin: 0 0.75rem 0 10rem }
 .popularMainCardGradeIcon[data-active=true] { color: #0065FC }
 .popularMainCardGradeIcon[data-active=false] { color: #D9D9D9 }
 .activity {
@@ -581,10 +581,10 @@ a {
       border-radius: 0;
       margin-left: auto;
       margin-right: auto;
-      width: 320px;
+      width: 100%;
       padding-left: 0;
       padding-right: 0;
-      background-color: white;
+      background-color: #F2F2F2;
   }
   .popularHeaderTitle { 
     margin-left: 5px;
@@ -594,7 +594,11 @@ a {
     width: 275px;
     padding-left: 18px;
   }
-  .popularMainCard { max-width: 275px }
+  .popularMainCard { 
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .popularMainCardFigureImg, .popularMainCardFigureImgSmall {
     width: 48%;
   }
