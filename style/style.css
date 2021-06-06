@@ -803,7 +803,10 @@ a {
     max-height: 148px;
     width: 135px;
   }
-  .popularMainCard { margin: 0 }
+  .popularMainCard { 
+    margin: 0;
+    height: 180px;
+  }
   .activityMain { 
     flex-direction: row;
     flex-wrap: wrap;
